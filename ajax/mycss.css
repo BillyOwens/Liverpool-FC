@@ -1242,7 +1242,7 @@ html .ui-panel-page-container-g {
 html .ui-bar-g a,
 html .ui-body-g a,
 html body .ui-group-theme-g a {
-	color: #3388cc /*{g-link-color}*/;
+	color: 225, 237, 207 /*{g-link-color}*/;
 	font-weight: bold;
 }
 .ui-page-theme-g a:visited,

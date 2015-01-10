@@ -86,9 +86,8 @@ var page4ListCounter = 0;
 <!--------------------------- PUT IN YOUR EMAIL BELOW ------------------------------------>
 
 <a href="mailto:myName@gmail.com" class="ui-btn-left ui-btn ui-btn-corner-all ui-shadow 
-ui-btn-up-a" data-theme="b"> Contact Us </a>
-</br>
-
+ui-btn-up-a" data-theme="c"> Contact Us </a>
+<br />
 
 
 <!------------------- Twitter Info ------------------------------------------------------>
@@ -120,7 +119,7 @@ id="b" target="_blank" data-theme="a">
 	
 <!---------------------beginning of navbar / CHANGE THE WORDS IN WHITE TO APPEAR ON BUTTONS -->
 		
-		<div data-role="footer" data-position="fixed" data-id="" data-theme="b">
+		<div data-role="footer" data-position="fixed" data-id="" data-theme="c">
 		<div data-role="navbar">
 			<ul>
 				<li><a href="#page2" data-role="button" data-icon="arrow-r">About</a></li>
@@ -172,7 +171,7 @@ id="b" target="_blank" data-theme="a">
 
 	<div><h4><p>&copy; N3xt G3nov8ion 2013</p></h4></div>
 
-	<div data-role="footer" data-position="fixed" data-id="MarkBillfooter" data-theme="b">
+	<div data-role="footer" data-position="fixed" data-id="MarkBillfooter" data-theme="c">
 		<!--beginning of navbar--><div data-role="navbar">
 			<ul>
 				<li><a href="#" data-role="button" data-icon="arrow-r">About</a></li>
@@ -187,15 +186,14 @@ id="b" target="_blank" data-theme="a">
 
 <!------------------------beginning of page 3------------------------------------------------>
 
-<div data-role="page" id="page3" style="background-image: url('images/background.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
-    data-theme="b">
+<div data-role="page" id="page3">
 	<div data-role="header" id="page3Header" data-theme="b">
 		<h1>Players / Team</h1>
 		<a href="#page" data-icon="home" data-iconpos="notext">Home</a>
 	</div>
 	
 	
-	<div data-role="content" data-theme="">	
+	<div data-role="content" data-theme="b">	
 		<ul data-role="listview" id="page3ExampleList" >
         </ul>		
         <a id="page3ListButton" data-role="button" data-theme="b">Fantasty Football Team</a>	
@@ -208,11 +206,11 @@ id="b" target="_blank" data-theme="a">
          <!--this sample ajax change text is taken from w3schools-->
          <a id="page3testAjaxButton"  data-role="button" data-theme="b"> Click for Answer</a>
             	
-          <div class="ui-grid-a" id="contact_infos" align="center" id="testingAjax2">
+          <div class="ui-grid-a" id="contact_infos" align="center" id="testingAjax2" >
           	<h3>PLayer Profile</h3>
           	<p><img src="images/foto3.jpg" width"80%" height"180"  align="centre" style="position:relative; top:50%; margin-left: -18px; margin-top: -18px"></p></h1>
             	
-          	<a id="testingAjax2" data-role="button" data-theme="b" data-collapsed="true"  onclick="text2()">Player Profile </a>
+          	<a id="testingAjax2" data-role="button" data-theme="c" data-collapsed="true"  onclick="text2()">Player Profile </a>
           </div>
           
           
@@ -246,7 +244,7 @@ id="b" target="_blank" data-theme="a">
 		<a href="#page" data-icon="home" data-iconpos="notext">Home</a>
 	</div>
 	
-	<div data-role="content" data-theme="b">
+	<div data-role="content" >
 		
     	<h1 style="text-align:center;">
     	<p><img src="images/foto4.jpg" width"80%" height"180"  align="centre" style="position:relative; top:50%; margin-left: -18px; margin-top: -18px"></p></h1>
@@ -259,7 +257,7 @@ id="b" target="_blank" data-theme="a">
 	
 	<div class="ui-grid-a" id="contact_infos" align="center" id="testingAjax3">
           	<h3>Winning Grounds</h3>
-          	<a id="testingAjax3" data-role="button" data-theme="b" data-collapsed="true"  onclick="text3()">Stadium </a>
+          	<a id="testingAjax3" data-role="button" data-theme="c" data-collapsed="true"  onclick="text3()">Stadium </a>
           </div>
 	
 	<div>
@@ -324,7 +322,7 @@ $.getJSON("https://api.twitter.com/1/statuses/user_timeline/webbdevv.json?count=
 
 
 <div data-role="page" id="page5" style="background-image: url('images/chelseaLogo1.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
-    data-theme="b">
+    data-theme="a">
 	
 	
 	
@@ -334,7 +332,7 @@ $.getJSON("https://api.twitter.com/1/statuses/user_timeline/webbdevv.json?count=
 		<a href="#page" data-icon="home" data-iconpos="notext">Gallery</a>
 	</div>
 
-	<div data-role="content" data-theme="b">	
+	<div data-role="content">	
     <a id="page5Text"><p>Click for selection of Steven Gerard Images </p></a>
 	<a id="page5AJAXButton" data-role="button" data-icon="plus" data-theme="b">Get Data</a>
        	<ul data-role="listview" id="page5ImageList">
@@ -351,14 +349,7 @@ $.getJSON("https://api.twitter.com/1/statuses/user_timeline/webbdevv.json?count=
 		
 		  
     <!--<source src="horse.ogg" type="audio/ogg"></source>-->
-    
-    	<!--		Google News Plugin 
-    		
-    			<iframe src="http://www.google.com/uds/modules/elements/newsshow/iframe.html?format=300x250"
-        	frameborder="0" width="300" height="250"
-        	marginwidth="0" marginheight="0">
-			</iframe>
-  					-->
+  
    
 		
 		<audio width="270" controls onclick="">
@@ -410,8 +401,8 @@ $.getJSON("https://api.twitter.com/1/statuses/user_timeline/webbdevv.json?count=
 
 <!------------------------beginning of page 6--------->
 
-<div data-role="page" id="page6" style="background-image: url('images/background.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
-    data-theme="b">
+<div data-role="page" id="page6" style="background-image: url('images/chelseaLogo1.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
+    data-theme="a">
 	
 	
 	
@@ -424,22 +415,11 @@ $.getJSON("https://api.twitter.com/1/statuses/user_timeline/webbdevv.json?count=
 		</div>
 		
 	
-	<div data-role="content" data-theme="b">
+	<div data-role="content">
+		
 		
 	
-	<h1 style="text-align:center;">
-    	<p><img src="images/foto1.jpg" width"80%" height"180"  align="centre" style="position:relative; top:50%; margin-left: -18px; margin-top: -18px"></p></h1>
-		
-	</div>
-	
-	<div class="ui-grid-a" id="contact_infos" align="center" id="testingAjax4" data-theme="b">
-          	<h3>GI Report</h3>
-          	<a id="testingAjax4" data-role="button" data-theme="b" data-collapsed="true"  onclick="text4()">GI Report </a>
-          </div>
-		
-		<div>
-			
-			<h2><iframe src="https://www.google.com/maps/d/embed?mid=zkm3C-8Dohzk.kPaAwXqXOs84" width="100%" height="480"></iframe>
+	<h2><iframe src="https://www.google.com/maps/d/embed?mid=zkm3C-8Dohzk.kPaAwXqXOs84" width="100%" height="480"></iframe>
 			</h2>	
 				
 		
@@ -449,6 +429,16 @@ $.getJSON("https://api.twitter.com/1/statuses/user_timeline/webbdevv.json?count=
 			Ticket Office. LFC Ticket Office, P.O. Box 204, Liverpool L69  </p></font>
 	
 	</div>
+	
+	<h1 style="text-align:center;">
+    	<p><img src="images/foto1.jpg" width"80%" height"180"  align="centre" style="position:relative; top:50%; margin-left: -18px; margin-top: -18px"></p></h1>
+		
+	
+	<div class="ui-grid-a" id="contact_infos" align="center" id="testingAjax4">
+          	<h3>GI Report</h3>
+          	<a id="testingAjax4" data-role="button" data-theme="c" data-collapsed="true"  onclick="text4()">GI Report </a>
+          </div>
+		
 	
 	<div>
 		<h4><p>&copy; N3xt G3nov8ion 2013</p></h4>
